@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.7;
+}
+
+@media only screen and (min-width: 360px) {
+    html {
+        font-size: 81.3% !important;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 87.5% !important;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    html {
+        font-size: 125% !important;
+    }
+}
+
+.safety {
+    padding: 8px;
+    color: #fff;
+    background: #665FC5;
+    font-size: 1rem;
+}
+
+.safety .safety-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #FFE493;
+}
+
+.safety .safety-item .safety-img {
+    flex: 2;
+    text-align: center;
+}
+
+.safety .safety-item .safety-img img {
+    width: 70%;
+}
+
+.safety .safety-item .safety-txt {
+    flex: 8;
+    padding: 10px 5px;
+    background: #5750A6;
+}
+
+.safety .safety-item .safety-txt h5 {
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
+
+.safety .safety-item .safety-txt p {
+    text-align: justify;
+}
+
+/*# sourceMappingURL=safety.css.map */
